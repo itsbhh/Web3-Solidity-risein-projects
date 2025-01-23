@@ -34,70 +34,29 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "new_owner",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "uint8",
+						"name": "choice",
+						"type": "uint8"
 					}
 				],
-				"name": "proposal_history",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "description",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "approve",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "reject",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "pass",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "total_vote_to_end",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "current_state",
-						"type": "bool"
-					},
-					{
-						"internalType": "bool",
-						"name": "is_active",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -114,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ProposalContractThirdHomework.sol": "ProposalContract"
+			"contracts/ProposalContractFourthHomework.sol": "ProposalContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -128,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ProposalContractThirdHomework.sol": {
-			"keccak256": "0xe4e1fad09176580afafb6465e461be3d04ad71ba746880dce80b78414b661c96",
+		"contracts/ProposalContractFourthHomework.sol": {
+			"keccak256": "0xe1b748a8c218c148bee7061c8b1762e23ddc6c6015239b7deda5e801ca7e7f14",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c8a6144ff8a864049119ebf11b6e22a4c8a7979d23e7579db61b9e7569957dcb",
-				"dweb:/ipfs/QmbwpKc9vGfPjb36cGNTyaKtTEwp8sH8m1r95z67UtaRcv"
+				"bzz-raw://67f858b85a0ff41957e60379d9ae4463b4b618c4a81dc9150dcba0288726bd99",
+				"dweb:/ipfs/QmSYPHF4AvafC5araRRW9RBm4fGpfRCwco5gojHSu5yJo9"
 			]
 		}
 	},
