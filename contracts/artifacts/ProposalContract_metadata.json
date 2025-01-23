@@ -14,72 +14,23 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "title",
+						"name": "_title",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "description",
+						"name": "_description",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "voteLimit",
+						"name": "_total_vote_to_end",
 						"type": "uint256"
 					}
 				],
-				"name": "createProposal",
+				"name": "create",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "proposalId",
-						"type": "uint256"
-					}
-				],
-				"name": "getProposal",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					},
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -90,19 +41,6 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "proposalCount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -161,45 +99,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "proposalId",
-						"type": "uint256"
-					}
-				],
-				"name": "voteApprove",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "proposalId",
-						"type": "uint256"
-					}
-				],
-				"name": "votePass",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "proposalId",
-						"type": "uint256"
-					}
-				],
-				"name": "voteReject",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -215,7 +114,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ProposalContract.sol": "ProposalContract"
+			"contracts/ProposalContractThirdHomework.sol": "ProposalContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -229,12 +128,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ProposalContract.sol": {
-			"keccak256": "0xd0c90e9dd9e1a14190758e64b07c3edb590de00388692176026ae1b88d7af8f1",
+		"contracts/ProposalContractThirdHomework.sol": {
+			"keccak256": "0xe4e1fad09176580afafb6465e461be3d04ad71ba746880dce80b78414b661c96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f1fa2d8813ae417f5fd4ce075ad665ea54f1fd4716da15468e4734eaf8b3aa8",
-				"dweb:/ipfs/QmTZedEiQpTdgRqr2ZLiNWZ4baYK6Dk66YtuJRvbq8dQox"
+				"bzz-raw://c8a6144ff8a864049119ebf11b6e22a4c8a7979d23e7579db61b9e7569957dcb",
+				"dweb:/ipfs/QmbwpKc9vGfPjb36cGNTyaKtTEwp8sH8m1r95z67UtaRcv"
 			]
 		}
 	},
