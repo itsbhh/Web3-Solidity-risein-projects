@@ -14,11 +14,6 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
 						"name": "_description",
 						"type": "string"
 					},
@@ -34,6 +29,131 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getCurrentProposal",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "approve",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "reject",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "pass",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "total_vote_to_end",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "current_state",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "is_active",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ProposalContract.Proposal",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "getProposal",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "description",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "approve",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "reject",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "pass",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "total_vote_to_end",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "current_state",
+								"type": "bool"
+							},
+							{
+								"internalType": "bool",
+								"name": "is_active",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct ProposalContract.Proposal",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "isVoted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -42,6 +162,13 @@
 					}
 				],
 				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "terminateProposal",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -73,7 +200,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ProposalContractFourthHomework.sol": "ProposalContract"
+			"contracts/CompleteProposalContract.sol": "ProposalContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -87,12 +214,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ProposalContractFourthHomework.sol": {
-			"keccak256": "0xe1b748a8c218c148bee7061c8b1762e23ddc6c6015239b7deda5e801ca7e7f14",
+		"contracts/CompleteProposalContract.sol": {
+			"keccak256": "0x91d7c1108474aabb73bec98dea484dd7cade634fdb18ab62b6438200e5b066ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://67f858b85a0ff41957e60379d9ae4463b4b618c4a81dc9150dcba0288726bd99",
-				"dweb:/ipfs/QmSYPHF4AvafC5araRRW9RBm4fGpfRCwco5gojHSu5yJo9"
+				"bzz-raw://d127e25fc48aa7487626ce62cea8fe3aaff6311e5fd6d2cd43d93df6579d2a4c",
+				"dweb:/ipfs/QmYLMpRVTPueuBxsSRXoxvGQX49mDFM9fYpxRtEPWubBKi"
 			]
 		}
 	},
