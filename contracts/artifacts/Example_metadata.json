@@ -43,6 +43,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "get_description",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "increment_counter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -77,11 +90,11 @@
 	},
 	"sources": {
 		"contracts/Counter.sol": {
-			"keccak256": "0x6af821b1b231e668ce9b660e7b03428f0667b9c7b69dd7bb10e17d6e2924c85b",
+			"keccak256": "0x583a8996f4183c732a90fbc0102ba5f91df91d52482f7d4ef4d49ad056d60984",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://814f720893b5f7379bf72ac2e0e02726c7464a10a2983dd38b8a5b9f395482c1",
-				"dweb:/ipfs/QmbXqbUSXQBFAMxApK4LYyaVEmhV7ChorRqrHwp1gxTerr"
+				"bzz-raw://94106f799227735e784e492e96f37ed061f962a99e615e97cf2f25a7be14b823",
+				"dweb:/ipfs/QmfX34Fe6ctzTkj1JcwcEBjxGmm1diwvuPex8qpZRN1XN1"
 			]
 		}
 	},
